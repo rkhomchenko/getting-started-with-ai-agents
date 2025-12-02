@@ -1,0 +1,13 @@
+{
+  "name": "03-agent-showcase",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "node --watch --env-file=.env index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dockerode": "^4.0.2"
+  }
+}
